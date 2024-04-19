@@ -1,0 +1,22 @@
+Setting up AWS S3 for Static Website Hosting
+ -Accessed the AWS Management Console
+ -Launched the web-based interface to manage AWS services and resources.
+ -Logged in using the appropriate AWS account credentials.
+Created a New S3 Bucket
+ -Navigated to the Amazon Simple Storage Service (S3) section within the console.
+ -Initiated the process to create a new S3 bucket.
+ -Assigned a unique and descriptive bucket name following AWS naming conventions.
+Selected the appropriate AWS region for the bucket's physical location.
+Configured any additional bucket settings as required.
+Completed the bucket creation process.
+Configured Static Website Hosting
+Located the newly created S3 bucket in the console.
+Accessed the "Properties" section of the bucket.
+Enabled the "Static website hosting" option.
+Specified the index document (e.g., "index.html") for the website.
+Did not specify an error document (e.g., "error.html") at this stage.
+Enabled Public Access
+In the bucket's "Properties" section, located the "Bucket Policy" settings.
+Enabled the "Public IP policy" or configured the appropriate policy to allow public access to the website.
+Reviewed and saved the bucket policy changes.
+After completing these steps, the S3 bucket was successfully configured to host a static website. The website could be accessed using the provided website endpoint URL, and the specified index document (e.g., "index.html") would be served as the entry point for the site. Any additional website files (CSS, JavaScript, images, etc.) could be uploaded to the configured S3 bucket.
